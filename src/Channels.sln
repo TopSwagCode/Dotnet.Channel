@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Channel", "Dotnet.Channel\Dotnet.Channel.csproj", "{9E961FF2-E91B-4454-802E-3453CD8CEC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.SimpleChannel", "Dotnet.SimpleChannel\Dotnet.SimpleChannel.csproj", "{DAECEEE3-3C4E-409A-BAD5-1777A52C045A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E961FF2-E91B-4454-802E-3453CD8CEC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E961FF2-E91B-4454-802E-3453CD8CEC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E961FF2-E91B-4454-802E-3453CD8CEC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E961FF2-E91B-4454-802E-3453CD8CEC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAECEEE3-3C4E-409A-BAD5-1777A52C045A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAECEEE3-3C4E-409A-BAD5-1777A52C045A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAECEEE3-3C4E-409A-BAD5-1777A52C045A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAECEEE3-3C4E-409A-BAD5-1777A52C045A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF1B71B3-1009-4B16-AC6B-5ED774947974}
+	EndGlobalSection
+EndGlobal
