@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
@@ -9,8 +9,11 @@ namespace Dotnet.SimpleChannel
 
         static async Task Main(string[] args)
         {
-            // Explore WaitToWriteAsync and why to use it.
             await Example0();
+            await Example1();
+            await Example2();
+            await Example3();
+            await Example4();
         }
 
         private static async Task Example0()
