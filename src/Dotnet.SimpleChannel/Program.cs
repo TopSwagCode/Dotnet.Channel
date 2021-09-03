@@ -100,7 +100,7 @@ namespace Dotnet.SimpleChannel
             }
             catch (ChannelClosedException e)
             {
-                Console.WriteLine("Channel was closed!");
+                Console.WriteLine($"Channel was closed! Message: {e.Message}");
             }
         }
 
@@ -137,7 +137,7 @@ namespace Dotnet.SimpleChannel
             }
             catch (ChannelClosedException e)
             {
-                Console.WriteLine("Channel was closed!");
+                Console.WriteLine($"Channel was closed! Message: {e.Message}");
             }
         }
     }
