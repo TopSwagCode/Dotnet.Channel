@@ -32,3 +32,9 @@ Below I have included some good links for getting to know Channels a bit better,
 * https://www.stevejgordon.co.uk/an-introduction-to-system-threading-channels
 
 As a bonus in this repository, I have added Github actions and Sonarqube code quality checker. This is currently just for testing out if it is something I want to add to all my public repositories.
+
+## TODO:
+
+* Add Unit tests
+* Add Codecoverage
+* Make youtube video about it all and link here.
