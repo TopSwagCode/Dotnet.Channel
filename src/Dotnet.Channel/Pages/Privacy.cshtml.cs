@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,12 +11,10 @@ namespace Dotnet.Channel.Pages
 {
     public class PrivacyModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
         private readonly NotificationService _notificationService;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger, NotificationService notificationService)
+        public PrivacyModel(NotificationService notificationService)
         {
-            _logger = logger;
             _notificationService = notificationService;
         }
 
