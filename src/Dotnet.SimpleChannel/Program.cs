@@ -6,6 +6,10 @@ namespace Dotnet.SimpleChannel
 {
     class Program
     {
+        protected Program()
+        {
+            // csharpsquid:S1118 - Utility classes should not have public constructors
+        }
 
         static async Task Main(string[] args)
         {
