@@ -14,17 +14,13 @@ namespace Dotnet.Channel.Pages
     public class ErrorModel : PageModel
     {
         public string RequestId { get; set; }
-
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
-        private readonly ILogger<ErrorModel> _logger;
         private readonly NotificationService _notificationService;
 
-        public ErrorModel(ILogger<ErrorModel> logger, NotificationService notificationService)
+        public ErrorModel(NotificationService notificationService)
         {
-            _logger = logger;
             _notificationService = notificationService;
-            
         }
 
         public async Task OnGet()
