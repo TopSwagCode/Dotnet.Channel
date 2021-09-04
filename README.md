@@ -37,5 +37,5 @@ As a bonus in this repository, I have added Github actions and Sonarqube code qu
 
 * Add Unit tests
 * Add Codecoverage
-* Make youtube video about it all and link here.
-* Maybe a SwagBits video.
+* Make youtube video about it all and link here
+* Maybe a SwagBits video
