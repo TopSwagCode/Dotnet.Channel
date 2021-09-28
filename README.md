@@ -5,7 +5,7 @@
 
 <a href="https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1"><img src="assets/aspnetcore.png" height="50px"></a>
 <a href="https://topswagcode.com/"><img src="assets/topswagcode.png" height="50px"></a>
-<a href="https://www.youtube.com/channel/UCOb2ob2I2Vu23JNlT5xoFZA/videos"><img src="assets/youtube.png" height="50px"></a>
+<a href="https://www.youtube.com/channel/UCOb2ob2I2Vu23JNlT5xoFZA/videos"><img src="assets/youtube_t.png" height="50px"></a>
 
 Channels enable a producer to safely pass data over to a consumer along with the appropriate notifications in both directions. Channels is an awesome feature I rarely see being used in the wild. In this repository, I have included 2 projects. A simple Console APP showing some basic usage of Channels. A more advanced example showing a channel being used for real time notifications using SignalR. I have seen a bunch of implementations of doing this using Queues and what not. But I really love how simple it can be done using channels.
 
